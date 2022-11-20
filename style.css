@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+@import "nullstyle.scss";
+body {
+    font-family: 'Play', sans-serif;
+    background-image:url("https://abrakadabra.fun/uploads/posts/2021-12/1640143565_10-abrakadabra-fun-p-krasivii-fon-dlya-rezyume-10.jpg");
+padding: 30px 0;}
+
+.container{width: 800px;
+    min-height: 900px;
+    border: 10px solid #bac7c6;
+    margin: 0 auto;
+    background-color: white;}
+    
+    .footer{width: 100%;
+      height:800px;
+    border:NONE;
+  display: flex; }
+
+    .header{
+        display: flex;}
+
+  .photo{
+  height: 200px;
+  height:240px;
+  
+}
+  .photo img{ object-fit: cover;
+    width: 100%;
+    height: 100%;}
+
+    .name-profession{
+        width:600px;
+        height:128px;
+        padding-top: 50px;
+        display: block;}
+
+   .name{
+ font-size: 40px;
+  font-stretch:extra-expanded}
+
+  .profession{
+  font-size: 40px;
+ padding-bottom: 30px;
+  color: rgb(34, 50, 109);}
+
+  .icons-bug{position: absolute;
+    margin-left: 220px;
+    bottom: 570px;
+    animation-name: moveX;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-direction: alternate;
+}
+@keyframes moveX {
+  from {
+    transform: translateX(0);
+   
+}
+to {
+    transform: translateX(10px); 
+   
+}
+}
+
+
+
+  .about-me{font-size:15px ;
+  border: 1px solid rgb(249, 247, 247);
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+  border-radius: 10px;
+}
+
+
+ .leftzone{
+  width: 25%;
+ height: 100%;
+ border: NONE;
+ background-color: white;
+ }
+
+ .icons-photo{transition: 1s;}
+
+ .icons-photo:hover{transform: scale(1.2);}
+
+ .location{width:100%;
+  height:35px;
+  display: flex;
+  margin-left: 16.5px;
+  
+ }
+  
+  .city{margin-top: 7px;
+    margin-right:16.5px ;}
+  
+  .contact{
+    margin-top: 20px;
+    width:90%;
+  height: 95px;
+  border: 1px solid rgb(65, 124, 87);
+  margin: auto ;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+  }
+
+  .number-background{
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+   
+  }
+  
+  
+    .photo-phone{margin: auto auto auto 10px;
+    }
+
+
+  .number-phone{width:100%;
+  height:35px;
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+  display: flex;
+  margin: auto ;
+  
+}
+
+  .my-number{
+     margin: auto 20px auto auto; }
+
+  .social-networks{
+   margin-left: 36px;
+    display: flex;}
+
+  .tools{
+  margin-top: 20px;
+  width:90%;
+  height:300px;
+  border: 1px solid rgb(34, 50, 109);
+background-color: white; 
+margin: 20px auto auto auto ;
+text-align: center;
+box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);}
+
+.name-tools-background{width:100%;
+  height:35px;
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+  text-align: center;}
+  
+  .name-tools{padding-top: 8.5px;
+    font-weight:700;
+    font-size:20px;}
+
+  .my-tools{
+  margin: auto;}
+
+li{margin-bottom: 6px;}
+
+.courses{ margin-top: 20px;
+  width:90%;
+  height:260px;
+  border: 1px solid rgb(34, 50, 109);
+  margin: 20px auto auto auto ;
+  text-align: center;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);}
+
+  .name-title-courses{width:100%;
+    height:35px;
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    text-align: center;
+    font-weight:700;
+    
+    }
+
+    .name-courses{margin-bottom: 15px;}
+
+    .button {
+      color: #fff;
+      background-color: red;
+      box-shadow: 2px 2px 2px red;
+      transition-property: all;
+      transition-duration: 0.5s;
+      transition-delay: 0s;
+      transition-timing-function: ease;
+      margin: 0 auto;
+      margin-top: 15px;
+      display: block;
+      }
+
+  .button {
+        color: white;
+        padding: 5px;
+        background-color: red;
+       
+        border-radius: 10px;
+        cursor: pointer;}
+        
+  .button:hover{
+
+          padding: 5px 20px;
+          background-color: red;
+          opacity: .8;
+          background: red;
+          }
+          
+
+.experience{
+  width: 75%;
+ height: 100%;
+ border: NONE
+ background-color: white;
+}
+.name-experience-background{
+  border: 1px solid rgb(34, 50, 109);
+  width: 570px;
+  height:35px;
+  font-size:20px;
+  font-weight:700;
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+ margin:auto ;
+ box-shadow: 10px 10px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.name-experience{
+  margin-top: 5px;
+}
+
+.job{width: 570px ;
+height:320px ;
+border: 1px solid rgb(34, 50, 109);
+display: flex;
+margin-top:20px ;
+margin:20px auto ;
+box-shadow: 10px 10px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.job-experience{font-size: 12px;
+margin-left: 10px;
+list-style-type: disc;}
+
+.job-text{margin-bottom: 7px;}
+
+
+.about-me2{width: 570px ;
+  height:320px ;
+  border: 1px solid rgb(34, 50, 109);
+  
+  margin-top:20px ;
+  margin:20px auto ;
+  box-shadow: 10px 10px 2px 1px rgba(0, 0, 255, .2);}
+
+.about-me-footer-background{
+  border: 1px solid rgb(34, 50, 109);
+  width: 570px;
+  height:35px;
+  font-size:20px;
+  font-weight:700;
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+ margin:auto ;
+ box-shadow: 8px 8px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.name-about-me{margin-top: 5px;}
+
+.about-me-description{font-size: 12px;
+  margin-left: 125px;
+  margin-top: 10px;
+  list-style-type: disc;}
+
+ 

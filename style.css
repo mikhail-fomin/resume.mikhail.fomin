@@ -52,7 +52,6 @@ padding: 30px 0;}
     animation-iteration-count: infinite;
     animation-duration: 1s;
     animation-direction: alternate;
-    bottom: 55px;
 }
 @keyframes moveX {
   from {

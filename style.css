@@ -54,11 +54,11 @@ padding: 30px 0;}
 }
 @keyframes moveX {
   from {
-    transform: translateX(0);
-    transform: rotate(45deg);
+   transform: translateX(8px);
+);
 }
 to {
-    transform: translateX(10px); 
+    transform: translateX(15px); 
    
 }
 }
